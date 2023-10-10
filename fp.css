@@ -1,0 +1,56 @@
+body{
+    background-image:url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
+    background-size:cover;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+
+h2{
+
+    text-align: center;
+    border-style: dotted;
+
+}
+
+.myDiv{
+    text-align: center;
+    justify-content: center;
+}
+.btContainer{
+    margin-top: 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    row-gap: 50px;
+    column-gap: 60px;
+} 
+.bt{
+    align-items: center;    
+    width: 250px;
+    height:50px;
+    color: aliceblue;
+
+    border-radius: 50px;  
+    border-color: yellow;  
+    background-color: transparent;
+    font-size: 26px;
+}
+.bt:hover{
+    background-color: white;
+    color: black;
+    width: 280px;
+    cursor: pointer;
+    transition: 1s all;
+    
+}
+#question{
+    color: white;
+    font-size: 24px;
+    margin:0 200px;
+    margin-top: 150px;
+
+}
